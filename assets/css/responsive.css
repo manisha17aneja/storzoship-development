@@ -1,0 +1,861 @@
+@media (max-width: 1366px) {
+  .shipment_details .all-card-wrapper {
+    flex-wrap: wrap !important;
+  }
+
+  .shipment_details .all-card-wrapper > div {
+    min-width: 12.7%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .main-dashboard .shipmentCountCards.row > div {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .main-dashboard .shipment_details .all-card-wrapper .fw-bold {
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .main-dashboard .shipment_details span.fs-6.text-grey {
+    font-size: 11px;
+  }
+  .rate-calculator-page form > div:nth-child(3) .form-row > div:first-child {
+    max-width: 40%;
+  }
+
+  .rate-calculator-page form > div:nth-child(3) .form-row > div:last-child {
+    max-width: 60%;
+    width: 60%;
+    flex: 0 0 60%;
+  }
+  .reports-page .card-body th,
+  .reports-page .card-body td {
+    width: auto !important;
+    font-size: 11px !important;
+    max-width: initial;
+    white-space: nowrap;
+  }
+  .reports-page .date-range-selector-custom .input-container {
+    width: 100%;
+    min-width: auto;
+  }
+  .wizard-page .header-strip .arrow-steps .step {
+    padding: 10px 32px 10px 34px;
+  }
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(1),
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(2) {
+    width: 25%;
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(3) {
+    flex: 0 0 40%;
+    max-width: 40%;
+    width: 40%;
+  }
+  .reports-page .filter-container-custom .row > div:first-child {
+    display: flex;
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+  .reports-page .filter-container-custom .row .col-7 {
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
+  }
+  .seller-channels-page .channel-container .search-channel .search-btn {
+    left: 0;
+}
+.new-reports-page .panel-body .table>tbody>tr>td > div {
+  word-break: break-word;
+  font-size: 11px;
+}
+.rate-calculator-page .appendform span {
+  display: flex;
+  align-items: center;
+  font-size: 12px !important;
+}
+.single-order-page .singleOrder .mat-tab-label .lefttb span {
+  font-size: 9px;
+  height: 15px;
+  width: 17px;
+  margin-right: 2px;
+  padding-top: 2px;
+}
+.single-order-page .singleOrder .mat-tab-label p.lefttb.ng-star-inserted {
+  font-size: 10px !important;
+}
+.single-order-page .upload-card .upload-desc {
+  font-size: 12px;
+  max-width: 72%;
+}
+.rate-card-page .bg-white.py-4.px-2 > div:first-child > div:first-child {
+  flex: 0 0 30%;
+  max-width: 20%;
+  width: 30%;
+}
+
+.rate-card-page .row.latest-order-div {
+  overflow-x: scroll;
+}
+.change-password-page .content.form-content > form > div .col-md-6.col-md-offset-3 {
+  flex: 0 0 80%;
+  max-width: 80%;
+  width: 80%;
+}
+.change-password-page .channel-container > .col-12.col-md-5.mb-3.mb-sm-0.ps-3 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.user-page .panel-body.pv-xl > .col-md-9 {
+  max-width: 100%;
+}
+
+}
+
+@media (max-width: 575px) {
+  .d-flex.flex-column.align-items-center.clickable.mobile-none {
+    display: none !important;
+  }
+
+  .main-dashboard .shipmentCountCards.row > div {
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin-bottom: 20px !important;
+  }
+
+  .main-dashboard
+    .shipmentCountCards.row
+    > div
+    .mt-08.fs-6-1.d-flex.justify-content-start.fw-bold {
+    font-size: 11px;
+  }
+
+  .shipment_details .all-card-wrapper > div {
+    min-width: 46%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar-brand-wrapper.d-flex.d-lg-none.align-items-center.justify-content-center {
+    width: 100%;
+    height: 70px;
+    justify-content: center !important;
+
+    text-align: left;
+  }
+
+  .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
+    width: auto !important;
+    max-width: 100% !important;
+    height: 45px !important;
+  }
+
+  .navbar
+    .navbar-menu-wrapper
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-menu.navbar-dropdown {
+    top: 230px !important;
+    right: 20px !important;
+  }
+
+  .sidebar .nav {
+    margin-top: 100px;
+  }
+
+  .dropdown-menu-right.user-dd.dropdown-menu {
+    top: 130px !important;
+    right: 50px !important;
+  }
+
+  .dashboard-body .content-wrapper {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+  }
+
+  .dashboard-body .container-scroller {
+    max-height: 98vh;
+  }
+
+  .dashboard-body {
+    padding-bottom: 2vh;
+  }
+
+  .main-dashboard .row.latest-order-div > div {
+    margin-bottom: 30px;
+  }
+
+  .main-dashboard .row.latest-order-div > div:last-child {
+    margin-bottom: 0;
+  }
+
+  .navbar .navbar-menu-wrapper .navbar-toggler.navbar-toggler-right {
+    padding-left: 0 !important;
+  }
+
+  div#chatBoatContent {
+    width: 240px !important;
+  }
+
+  div#chatBoatContent img {
+    max-width: 70%;
+  }
+
+  div#chatBoatContent h2 {
+    font-size: 18px !important;
+  }
+
+  div#chatBoatContent p {
+    font-size: 12px !important;
+  }
+
+  /* bread crumbs */
+
+  .warehouse-page .page-breadcrumb.mb-2 .col-12 > div span {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  .warehouse-page .page-breadcrumb.mb-2 .col-12 > div {
+    flex-wrap: wrap;
+  }
+
+  .warehouse-page .page-breadcrumb.mb-2 .col-12 > div span {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .complaints-page .form-container .card-body {
+    padding: 0;
+  }
+  .complaints-page .form-container .form-group.row .col-6 {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .complaints-page
+    form.ng-pristine.ng-invalid.ng-touched
+    .form-group.row
+    .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .complaints-page .button-container {
+    margin-top: 0 !important;
+  }
+  .complaints-page form.ng-pristine.ng-invalid.ng-touched {
+    width: 95%;
+  }
+  .complaints-page .ng-tns-c104-0 {
+    margin-bottom: 10px;
+  }
+  /* recharge page */
+  .recharge-page .bg-white.py-4.px-2 {
+    padding-bottom: 0 !important;
+  }
+  .recharge-page div#pills-tabContent {
+    padding: 0;
+  }
+  .recharge-page h3.mx-3 {
+    color: #000;
+    text-align: center;
+  }
+  .recharge-page .col-md-6.col-lg-8.d-flex.flex-row-reverse.mb-2 {
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .rate-calculator-page form > div:nth-child(3) .form-row > div:last-child {
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .rate-calculator-page form > div:nth-child(3) .form-row > div:first-child {
+    max-width: 100%;
+  }
+  .rate-calculator-page.warehouse-page .card-body {
+    margin-bottom: 0;
+    padding: 15px !important;
+  }
+  .payment-recharge .date-range-selector-custom .input-container {
+    min-width: 100%;
+  }
+  .payment-recharge ul.pagination {
+    max-width: 80%;
+    overflow-x: scroll;
+    margin: 0 auto;
+  }
+  .order-page .form-container .form-group {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .order-page .heavy-order .row.ng-untouched.ng-pristine.ng-invalid {
+    padding: 0;
+  }
+  .order-page .heavy-order input,
+  .order-page .heavy-order select {
+    padding-left: 10px !important;
+  }
+
+  .order-page .heavy-order .ng-untouched.ng-pristine.ng-invalid {
+    padding: 0;
+  }
+  /* accout settings */
+  .account-settings-page .form-heading > div,
+  .account-settings-page .form-heading > input {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+  .account-settings-page .form-heading {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .account-settings-page .form-heading > div {
+    margin-top: 9px;
+  }
+  .account-settings-page .hr-lines:after {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .account-settings-page .card .card-body .mt-2.w-50 {
+    width: 100% !important;
+  }
+  .account-settings-page .card .card-body {
+    padding: 15px;
+  }
+
+  /* .user-remittance-page */
+
+  .user-remittance-page .date-range-selector-custom.col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+  .user-remittance-page .filter-container {
+    min-width: auto !important;
+    width: 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    margin: 0 15px;
+  }
+  .user-remittance-page .all-box-container .remittance-card {
+    margin-bottom: 20px;
+  }
+  .recharge-page .main-dashboard .row.latest-order-div > div > div {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .reports-page .nav-pills .nav-item {
+    margin-bottom: 10px;
+  }
+
+  /* wizard page */
+  .wizard-page .profile-tabs.current {
+    background: #31c3ea;
+  }
+
+  .wizard-page .profile-tabs {
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    background: #ddd;
+    margin-bottom: 10px;
+  }
+
+  .wizard-page .profile-tabs p {
+    margin: 0;
+  }
+
+  .wizard-page .profile-tabs.current p {
+    color: #fff !important;
+  }
+  .wizard-page .latest-order-div .row.mb-2.header-strip {
+    padding: 0;
+  }
+
+  .wizard-page .latest-order-div {
+    justify-content: center;
+  }
+
+  .wizard-page .tab-content {
+    overflow: hidden;
+    padding: 0;
+  }
+  .wizard-page .latest-order-div .col-lg-4.col-md-12 {
+    margin-top: 30px;
+  }
+
+  .wizard-page .bottom-button-container {
+    margin: 0 !important;
+  }
+  .wizard-page .bottom-button-container > div {
+    text-align: center;
+  }
+  .wizard-page .main-dashboard .row.latest-order-div {
+    padding-bottom: 30px;
+  }
+  .wizard-page .main-dashboard .row.latest-order-div .bottom-button-container {
+    margin-top: 30px !important;
+  }
+  .wizard-page .card-body .upload_img-box img {
+    width: 100%;
+  }
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(1),
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin: 10px auto;
+    min-width: auto !important;
+  }
+  .orders-page .main-dashboard .row.latest-order-div {
+    justify-content: center;
+  }
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(3) {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .orders-page
+    .main-dashboard
+    div#pills-closed
+    .row.latest-order-div
+    > .row:first-child
+    > div:nth-child(3)
+    button {
+    font-size: 10px;
+    padding: 5px;
+    width: 30.33%;
+  }
+  .orders-page .main-dashboard .row.latest-order-div * {
+    color: #3e5569;
+    font-size: 10px;
+  }
+  .orders-page .main-dashboard .row.latest-order-div > div > div {
+    width: auto;
+    flex: 0 0 auto;
+    max-width: initial;
+    margin-bottom: 10px;
+  }
+  .orders-page
+    .main-dashboard
+    div#pills-Delivered
+    .row.latest-order-div
+    > div:first-child
+    > div,
+  .orders-page
+    .main-dashboard
+    div#pills-Undelivered
+    .row.latest-order-div
+    > div:first-child
+    > div,
+  .orders-page
+    .main-dashboard
+    div#pills-RTOIntransit
+    .row.latest-order-div
+    > div:first-child
+    > div,
+  .orders-page
+    .main-dashboard
+    div#pills-RTODelivered
+    .row.latest-order-div
+    > div:first-child
+    > div {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: initial;
+    margin: 0 auto 10px;
+  }
+  .orders-page div#pills-pending .table-responsive.order-container.my-3 {
+    border-top: 1px solid;
+  }
+  .orders-unshipped-page .card.courier-card-container {
+    margin-bottom: 20px;
+  }
+  .orders-unshipped-page #exampleModal .modal-footer.bg-030533 > div {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+  .orders-unshipped-page #exampleModal .modal-footer.bg-030533 {
+    flex-wrap: wrap;
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav li.nav-item.dropdown:first-child {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+  }
+  .navbar .navbar-menu-wrapper .navbar-nav li.nav-item.dropdown:nth-child(3) {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  .navbar
+    .navbar-menu-wrapper
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-menu.navbar-dropdown.action-dropdown
+    .custom-row.clearfix
+    > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+  .navbar
+    .navbar-menu-wrapper
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-menu.navbar-dropdown.action-dropdown
+    .custom-row.clearfix {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .navbar
+    .navbar-menu-wrapper
+    .navbar-nav
+    .nav-item.dropdown
+    .dropdown-menu.navbar-dropdown.action-dropdown {
+    min-width: auto;
+    left: -50px;
+    top: 130px !important;
+  }
+  .main-dashboard .menu-dropdown-container {
+    top: 145px;
+    right: 60px;
+  }
+  .dropdown-menu.dropdown-menu-right.navbar-dropdown.preview-list.action-dropdown.wallet-dropdown {
+    left: 20px !important;
+    top: 30px !important;
+  }
+  .reports-page .global-search input {
+    width: 100%;
+  }
+  .reports-page .sync-orders-container {
+    text-align: left;
+    margin-top: 0 !important;
+  }
+  .reports-page .filter-container-custom .row > div:first-child .dropdown,
+  .reports-page .filter-container-custom .row > div:first-child button {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .reports-page .filter-container-custom .row > div:first-child {
+    flex: 0 0 auto;
+    max-width: initial;
+    display: block;
+  }
+  .reports-page .filter-container-custom .row > div:last-child {
+    flex: 0 0 auto;
+    max-width: initial;
+  }
+  .reports-page .pagination-container .btn-group {
+    width: auto !important;
+    flex: 0 0 auto !important;
+    max-width: initial;
+  }
+  .billing-charge-details .order-cards .card {
+    margin-bottom: 20px;
+  }
+  .billing-charge-details .right-strip-wrapper {
+    width: auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .billing-charge-details .row.display_order_filter.pt-sm.order-search > div {
+    flex: 0 0 100%;
+    width: 100%;
+    display: block !important;
+  }
+
+  .billing-charge-details .row.display_order_filter.pt-sm.order-search {
+    flex-wrap: wrap;
+  }
+  .billing-charge-details .row.display_order_filter.pt-sm.order-search > div {
+    flex: 0 0 100%;
+    width: 100%;
+    display: block !important;
+    max-width: 100%;
+  }
+  .billing-charge-details
+    .row.display_order_filter.pt-sm.order-search
+    > div:first-child
+    input,
+  .billing-charge-details
+    .row.display_order_filter.pt-sm.order-search
+    > div:first-child
+    select {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .billing-charge-details .row.display_order_filter.pt-sm.order-search > div:last-child {
+    display: flex !important;
+}
+.billing-charge-details .row.display_order_filter.pt-sm.order-search > div:last-child select {
+  margin-right: 0;
+}
+.billing-charge-details  .bg-white.text-center.custom_class {
+  margin: 0 !important;
+  margin-top: 30px !important;
+}
+.billing-charge-details h3.text-md.pt-xl.text-info.ng-binding {
+  font-size: 20px;
+}
+.billing-charge-details h5.pt-10.ng-binding {
+  color: #000;
+  font-size: 13px;
+}
+.seller-channels-page .channel-container .col-12.col-md-7.text-sm-end .search-channel {
+  width: 100%;
+  margin: 0;
+}
+.new-reports-page .filter-container-custom .row > div:first-child {
+  margin-bottom: 10px;
+}
+.new-reports-page .bl{
+  overflow: scroll;
+}
+.new-reports-page .panel-footer ul.pagination {
+  max-width: initial;
+  overflow: auto;
+  margin: 0;
+}
+.new-reports-page .col-sm-4.text-right.hidden-xs {
+  position: absolute;
+  right: 10px;
+}
+.new-reports-page .panel-footer * {
+  font-size: 10px;
+}
+.rate-calculator-page .ng-star-inserted > div > div {
+  flex-wrap: wrap;
+}
+.rate-calculator-page  .content-wrapper {
+  width: 100%;
+  padding: 70px 0px 0 0;
+}
+.rate-calculator-page .appendform {
+  width: auto !important;
+}
+.rate-calculator-page .appendform input {
+  width: 40px;
+  flex: 0 0 auto;
+}
+.rate-calculator-page .bg-white.d-inline-block.w-secondhalf.border-radius-13px.ms-3 {
+  width: 100%;
+  margin: 0 !important;
+  margin-top: 20px !important;
+}
+.rate-calculator-page .row.mt-3 {
+  flex-wrap: wrap;
+}
+
+.rate-calculator-page .row.mt-3 > div {
+  flex: 0 0 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
+.rate-calculator-page .row.mt-3 > div:last-child input {
+  width: auto !important;
+}
+.single-order-page  .mat-tab-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.single-order-page  .mat-tab-labels > div {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+.single-order-page .singleOrder .mat-tab-body-wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+}
+.single-order-page .p-5.bg-white {
+  padding: 20px !important;
+}
+.main-dashboard .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown a.btn.btn-primary.bg-darker-blue.br-30.mr-3 {
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 12px;
+  height: 32px;
+}
+.single-order-page .upload-card .template-dropdown span {
+  font-size: 12px;
+}
+.single-order-page .upload-card .template-dropdown {
+  padding: 7px;;
+  float: none;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.single-order-page .upload-card .download-template-btn.col-push-6.col-md-6 {
+  justify-content: flex-start;
+}
+.single-order-page .custom_container {
+  max-width: 100%!important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.rate-card-page .bg-white.py-4.px-2 > div:first-child > div:first-child {
+  flex: 0 0 100%;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.rate-card-page .filter-container-custom .row > div:last-child .group-position1.d-lg-block {
+  width: 100%;
+  margin-top: 10px;
+}
+.rate-card-page .filter-container-custom .row > div:last-child .bulkAction_btn {
+  width: 100%;
+}
+.rate-card-page .row.latest-order-div > div {
+  margin-bottom: 0;
+}
+.statement_page .panel-heading.clearfix > div > div {
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.statement_page .panel-heading.clearfix > div > div > div {
+  flex: 0 0 80%;
+  max-width: 80%;
+  width: 80%;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+.statement_page .panel-heading.clearfix  .row.row-table.row-flush.billing-summary.pt-sm {
+  margin: 0;
+}
+.statement_page .main-dashboard .row.latest-order-div .panel-body.bl {
+  margin: 0 20px;
+}
+.ndr_pending_page .row.ndr-count-panel {
+  display: none;
+}
+.ndr_pending_page .ndr-round-border-mob.mt-mob .row > div {
+  margin-bottom: 10px;
+}
+.ndr_pending_page  .col-lg-12.ndr-mb {
+  margin-bottom: 0 !important;
+}
+.statement_page .main-dashboard .row.latest-order-div .panel-body.bl {
+  margin: 0 10px;
+}
+.request_weight_freeze_page .right-strip-wrapper {
+  float: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+.request_weight_freeze_page .type-header.mt-sm {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.request_weight_freeze_page p.type-header-2 {
+  font-size: 10px !important;
+}
+.request_weight_freeze_page .main-dashboard .row.latest-order-div .panel-body {
+  overflow: scroll;
+}
+.request_weight_freeze_page .bg-white.text-center.custom_class img {
+  width: 180px !important;
+}
+.request_weight_freeze_page .bg-white.text-center.custom_class h3.text-md.pt-xl.text-info.ng-binding {
+  font-size: 18px;
+  font-weight: 400;
+}
+.request_weight_freeze_page .bg-white.text-center.custom_class  h5.pt-10.ng-binding {
+  font-size: 10px !important;
+}
+.change-password-page .content-wrapper .align-items-center.row.mb-3.channel-container {
+  padding-top: 50px;
+  padding-left: 15px;
+}
+.change-password-page .channel-container > .col-12.col-md-5.mb-3.mb-sm-0.ps-3 h1 {
+  font-size: 20px;
+}
+.change-password-page .content.p-xl.form-content > form > div .form-group {
+  display: block;
+}
+.change-password-page  .col-md-7.text-right {
+  text-align: center !important;
+}
+.user-page h1 {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.create-returns-new .content-wrapper > .row > div {
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.row.product-row .col-md-2, .row.product-row .col-md-1 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.create-returns-new .content-wrapper > .row > div.col-md-3.hidden-xs {
+  margin-top: 20px;
+}
+.create-returns-new .content-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}

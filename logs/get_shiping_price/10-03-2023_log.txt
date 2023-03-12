@@ -1,0 +1,22 @@
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-10 02:17:39
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)

@@ -1,0 +1,796 @@
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 00:05:08
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:18:38
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:09:40
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:20:40
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:56:40
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:27:41
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:10:42
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:46:47
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:43:55
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:53:56
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 01:04:57
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:39:05
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:49:05
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:11:06
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:32:06
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:46:06
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:59:06
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:12:07
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:16:25
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:48:25
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:13:26
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:15:27
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:33:27
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:56:40
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:02:41
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:14:41
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:07:44
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:56:44
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:02:45
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:08:45
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:18:45
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:41:45
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:30:47
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:15:49
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:43:49
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:48:49
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:52:50
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-03-12 02:55:50
+    [sender_id] => 362
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)

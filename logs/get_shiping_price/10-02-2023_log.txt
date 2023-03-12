@@ -1,0 +1,110 @@
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-02-10 01:21:54
+    [sender_id] => 1
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => This Logistic Is Not Provide This Delivery For this Pincode
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-02-10 05:01:40
+    [sender_id] => 1
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-02-10 16:30:14
+    [sender_id] => 1
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => This Logistic Is Not Provide This Delivery For this Pincode
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-02-10 16:11:31
+    [sender_id] => 1
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => This Logistic Is Not Provide This Delivery For this Pincode
+)
+
+
+------- Start Log ------
+Array
+(
+    [date] => 2023-02-10 16:35:31
+    [sender_id] => 1
+    [order_type] => 0
+    [logistic_ids] => 
+    [from_pin] => 133001
+    [to_pin] => 382443
+    [shipment_type] => 0
+    [volumetric_weight] => 10
+    [physical_weight] => 10
+    [collectable_amount] => 100
+    [is_bulk] => 0
+    [gst] => 18
+)
+Array
+(
+    [logistic_error] => Logistic Have No Rules
+)

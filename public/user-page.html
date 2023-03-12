@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>User Page</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="assets/css/dashboard.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css" />
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="assets/vendors/jvectormap/jquery-jvectormap.css" />
+    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.theme.default.min.css" />
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+  </head>
+  <body class="dashboard-body warehouse-page complaints-page rate-calculator-page recharge-page payment-recharge user-remittance-page 
+  reports-page billing-charge-details seller-channels-page user-page">
+    <div class="container-scroller main-dashboard">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          <a class="sidebar-brand brand-logo" href="index.html">
+            <img src="assets/images/logo.png" alt="logo" />
+          </a>
+          <a class="sidebar-brand brand-logo-mini" href="index.html">
+            <img src="assets/images/logo.png" alt="logo" />
+          </a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="index.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+              <span class="menu-title">Home</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="#">
+              <span class="menu-icon">
+                <i class="mdi mdi-clipboard-outline"></i>
+              </span>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="#">
+              <span class="menu-icon">
+                <i class="mdi mdi-clipboard-outline"></i>
+              </span>
+              <span class="menu-title">Orders</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="#">
+              <span class="menu-icon">
+                <i class="mdi mdi-truck-delivery"></i>
+              </span>
+              <span class="menu-title">Returns</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="#">
+              <span class="menu-icon">
+                <i class="mdi mdi-cash-multiple"></i>
+              </span>
+              <span class="menu-title">NDR</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+              <span class="menu-icon">
+                <i class="mdi mdi-security"></i>
+              </span>
+              <span class="menu-title">Weight Mangement</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Weight Discrepancy </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Weight Freeze </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#auth2" aria-expanded="false" aria-controls="auth">
+              <span class="menu-icon">
+                <i class="mdi mdi-security"></i>
+              </span>
+              <span class="menu-title">Setup & Manage</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth2">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Channels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Catalogue</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courier</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Packaging</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Customers</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#Buyer" aria-expanded="false" aria-controls="auth">
+              <span class="menu-icon">
+                <i class="mdi mdi-security"></i>
+              </span>
+              <span class="menu-title">Buyer Experience</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="Buyer">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tracking Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Buyer Communication</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Returns & Refunds</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="#">
+              <span class="menu-icon">
+                <i class="mdi mdi-currency-inr"></i>
+              </span>
+              <span class="menu-title">Billing</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#settings" aria-expanded="false" aria-controls="auth">
+              <span class="menu-icon">
+                <i class="mdi mdi-security"></i>
+              </span>
+              <span class="menu-title">Tools</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="settings">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rate Calculator</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rate Card</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pincode Zone Mapping</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bulk Print Actions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Returns</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Activity Logs</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="index.html">
+              <img src="assets/images/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <!-- <ul class="navbar-nav w-100"><li class="nav-item w-100"><form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search"><input type="text" class="form-control" placeholder="Search products"></form></li></ul> -->
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" data-toggle="dropdown" aria-expanded="false" class="btn btn-primary bg-darker-blue br-30 mr-3">
+                  <svg id="Thunder" data-name="Thunder" xmlns="http://www.w3.org/2000/svg" width="14.053" height="18.945" viewBox="0 0 14.053 18.945">
+                    <path id="Path_72" data-name="Path 72" d="M9.727,0l3.841,6.159H0Z" transform="matrix(0.695, -0.719, 0.719, 0.695, 0.197, 14.667)" fill="#ffb013"></path>
+                    <path id="Path_73" data-name="Path 73" d="M3.815,6.118,0,0H13.476Z" transform="matrix(0.695, -0.719, 0.719, 0.695, 0, 9.694)" fill="#ffb013"></path>
+                  </svg> Quick actions </a>
+                <span class="count bg-success"></span>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list action-dropdown" aria-labelledby="messageDropdown">
+                  <div class="modal-content">
+                    <div class="quick-actions-outer" hidden="" style="display: block !important">
+                      <div class="quick-actions-wrp">
+                        <div class="p-lg-4 p-md-2 custom-boot-text-center pb-0">
+                          <div class="custom-row clearfix">
+                            <div class="custom-col-5 ng-star-inserted">
+                              <div mattooltipposition="below" mattooltipclass="quick-action-tooltip quick-action-tooltip-top" class="mat-tooltip-trigger quick-action-box ps-2 pe-2 pt-3 pb-3 fs-14px opacity-90 text-dark" aria-describedby="cdk-describedby-message-0" cdk-describedby-host="">
+                                <a class="custom-boot-d-block custom-boot-text-decoration-none text-dark">
+                                  <img apppathcorrection="" alt="quick action" class="custom-boot-d-inline-block" data-src="assets/svg/add_order.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/add_order.svg" />
+                                  <span class="custom-boot-d-block mt-2">Add an Order</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="custom-col-5 ng-star-inserted">
+                              <div mattooltipposition="below" mattooltipclass="quick-action-tooltip quick-action-tooltip-top" class="mat-tooltip-trigger quick-action-box ps-2 pe-2 pt-3 pb-3 fs-14px opacity-90 text-dark" aria-describedby="cdk-describedby-message-1" cdk-describedby-host="">
+                                <a class="custom-boot-d-block custom-boot-text-decoration-none text-dark">
+                                  <img apppathcorrection="" alt="quick action" class="custom-boot-d-inline-block" data-src="assets/svg/truck.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/truck.svg" />
+                                  <span class="custom-boot-d-block mt-2">Create a Quick Shipment</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="custom-col-5 ng-star-inserted">
+                              <div mattooltipposition="below" mattooltipclass="quick-action-tooltip quick-action-tooltip-top" class="mat-tooltip-trigger quick-action-box ps-2 pe-2 pt-3 pb-3 fs-14px opacity-90 text-dark" aria-describedby="cdk-describedby-message-2" cdk-describedby-host="">
+                                <a class="custom-boot-d-block custom-boot-text-decoration-none text-dark">
+                                  <img apppathcorrection="" alt="quick action" class="custom-boot-d-inline-block" data-src="assets/svg/rate_calulator.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/rate_calulator.svg" />
+                                  <span class="custom-boot-d-block mt-2">Rate Calculator</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="custom-col-5 ng-star-inserted">
+                              <div mattooltipposition="below" mattooltipclass="quick-action-tooltip quick-action-tooltip-top" class="mat-tooltip-trigger quick-action-box ps-2 pe-2 pt-3 pb-3 fs-14px opacity-90 text-dark" aria-describedby="cdk-describedby-message-3" cdk-describedby-host="">
+                                <a class="custom-boot-d-block custom-boot-text-decoration-none text-dark">
+                                  <img apppathcorrection="" alt="quick action" class="custom-boot-d-inline-block" data-src="assets/svg/create_ticket.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/create_ticket.svg" />
+                                  <span class="custom-boot-d-block mt-2">Create a Ticket</span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="custom-col-5 ng-star-inserted">
+                              <div mattooltipposition="below" mattooltipclass="quick-action-tooltip quick-action-tooltip-top" class="mat-tooltip-trigger quick-action-box ps-2 pe-2 pt-3 pb-3 fs-14px opacity-90 text-dark" aria-describedby="cdk-describedby-message-4" cdk-describedby-host="">
+                                <a class="custom-boot-d-block custom-boot-text-decoration-none text-dark">
+                                  <img apppathcorrection="" alt="quick action" class="custom-boot-d-inline-block" data-src="assets/svg/track_shipment.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/track_shipment.svg" />
+                                  <span class="custom-boot-d-block mt-2">Track Shipments</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="custom-boot-hr mt-2 mb-2 ng-star-inserted" style="background: #e3ddff; margin-top: 0 !important" />
+                        <div class="p-3 pt-0 custom-boot-text-center ng-star-inserted" style="line-height: 1">
+                          <a class="custom-boot-d-inline-block no-hover fs-10px custom-boot-text-decoration-none text-purple cursor-pointer">Close Action Descriptions</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" style="
+                  background: transparent;
+                  border: none;
+                  padding: 0;
+                  color: #000;
+              " data-toggle="dropdown" aria-expanded="false" class="btn btn-primary bg-darker-blue br-30 mr-3">
+                  <img data-src="assets/svg/wallet.svg" alt="wallet" src="https://sr-sidebar.shiprocket.in/assets/svg/wallet.svg"> ₹3,405.77 </a>
+                <span class="count bg-success"></span>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list action-dropdown wallet-dropdown" aria-labelledby="messageDropdown">
+                  <div class="modal-content">
+                    <div class="quick-actions-outer wallet-balance" hidden="" style="display: block !important">
+                      <div class="quick-actions-wrp">
+                        <div class="p-2 ps-3 pe-3">
+                          <ul class="custom-boot-text-center p-0 m-0">
+                            <li>
+                              <span class="fs-14px me-2">Usable Amount:</span>
+                              <strong class="fs-14px">₹3,405.77</strong>
+                            </li>
+                            <li class="ng-star-inserted">
+                              <span class="fs-14px me-2">Available Amount:</span>
+                              <strong class="fs-14px">₹3405.77</strong>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary bg-darker-blue br-30 mr-3"> Recharge Wallet </a>
+                <span class="count bg-success"></span>
+              </li>
+              <li class="nav-item dropdown" style="min-width: auto;">
+                <button class="p-0 ms-2 me-2 prod-update bell-icon-btn">
+                  <span class="position-relative">
+                    <img data-src="assets/svg/bell_icon.svg" alt="bell_icon" src="https://sr-sidebar.shiprocket.in/assets/svg/bell_icon.svg" />
+                  </span>
+                </button>
+                <div class="product-updates ng-tns-c44-3 ng-trigger ng-trigger-openCloseSidebar">
+                  <div class="p-4 p-u-heading ng-tns-c44-3">
+                    <div class="position-relative d-flex fs-18px ng-tns-c44-3">
+                      <span class="open-sans color ng-tns-c44-3"> Product Updates </span>
+                      <span class="ng-trigger-openCloseSidebar-close position-absolute right-0 onhover-pointer ng-tns-c44-3">
+                        <img apppathcorrection="" data-src="assets/svg/cross-dark.svg" alt="cross" class="ng-tns-c44-3" src="https://sr-sidebar.shiprocket.in/assets/svg/cross-dark.svg">
+                      </span>
+                    </div>
+                  </div>
+                  <div class="p-u-body p-4 ng-tns-c44-3">
+                    <div class="ng-tns-c44-3 ng-star-inserted">
+                      <div class="p-u-boxes p-4 mb-4 ng-tns-c44-3 ng-star-inserted">
+                        <div class="custom-boot-align-item-center custom-boot-row mb-3 ng-tns-c44-3">
+                          <div class="custom-boot-col-6 ng-tns-c44-3">
+                            <span class="new-tag border-radius-4px fs-10px p-2 pe-3 ps-3 ng-tns-c44-3"> New </span>
+                          </div>
+                          <div class="custom-boot-col-6 custom-boot-text-end ng-tns-c44-3">
+                            <span class="fs-12px ng-tns-c44-3" style="color: #838383; font-weight: 300;"> Dec 6, 2022 </span>
+                          </div>
+                        </div>
+                        <div class="custom-boot-d-flex custom-boot-align-item-center mb-3 ng-tns-c44-3">
+                          <div style="width: 40px;" class="ng-tns-c44-3">
+                            <div class="ng-tns-c44-3">
+                              <img alt="product-icon" style="max-width: 40px; max-height: 40px;" class="ng-tns-c44-3" src="assets/images/logo.png">
+                            </div>
+                          </div>
+                          <div class="ps-1 ng-tns-c44-3" style="width: calc(100% - 40px);">
+                            <div class="ng-tns-c44-3">
+                              <div class="fs-15px open-sans headline ng-tns-c44-3"> Attention! Change in Call Center Call and Chat Timings </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-3 ng-tns-c44-3">
+                          <div class="ng-tns-c44-3">
+                            <img alt="banner" class="border-radius-8px ng-tns-c44-3 ng-star-inserted" style="width: 100%;" src="https://kr-shipmultichannel.s3.ap-southeast-1.amazonaws.com/agreements/1670317311sBHmK.png">
+                          </div>
+                        </div>
+                        <div class="mb-4 ng-tns-c44-3">
+                          <p class="fs-12px open-sans m-0 hide-snippet ng-tns-c44-3">
+                          <p>
+                            <span style="font-weight: 400;">We have changed our call center call and chat timings to serve you better. Now, you can connect with our support team between 09:00 AM to 07:00 PM on all 7 days of a week.</span>
+                          </p>
+                          </p>
+                        </div>
+                        <div class="d-flex ng-tns-c44-3">
+                          <button class="btn-prod-update custom-boot-btn fs-14px pe-3 ps-3 rate-us-primary-btn me-2 ng-tns-c44-3 ng-star-inserted"> Know More </button>
+                        </div>
+                      </div>
+                      <div class="p-u-boxes p-4 mb-4 ng-tns-c44-3 ng-star-inserted">
+                        <div class="custom-boot-align-item-center custom-boot-row mb-3 ng-tns-c44-3">
+                          <div class="custom-boot-col-6 ng-tns-c44-3">
+                            <span class="new-tag border-radius-4px fs-10px p-2 pe-3 ps-3 ng-tns-c44-3"> New </span>
+                          </div>
+                          <div class="custom-boot-col-6 custom-boot-text-end ng-tns-c44-3">
+                            <span class="fs-12px ng-tns-c44-3" style="color: #838383; font-weight: 300;">
+                              <mat-icon role="img" class="mat-icon notranslate fs-12px me-1 material-icons-outlined ng-tns-c44-3 material-icons mat-icon-no-color" style="width: auto; height: auto; vertical-align: text-top;" aria-hidden="true" data-mat-icon-type="font"> schedule </mat-icon> Dec 6, 2022
+                            </span>
+                          </div>
+                        </div>
+                        <div class="custom-boot-d-flex custom-boot-align-item-center mb-3 ng-tns-c44-3">
+                          <div style="width: 40px;" class="ng-tns-c44-3">
+                            <div class="ng-tns-c44-3">
+                              <img alt="product-icon" style="max-width: 40px; max-height: 40px;" class="ng-tns-c44-3" src="assets/images/logo.png">
+                            </div>
+                          </div>
+                          <div class="ps-1 ng-tns-c44-3" style="width: calc(100% - 40px);">
+                            <div class="ng-tns-c44-3">
+                              <div class="fs-15px open-sans headline ng-tns-c44-3"> Product Update: Highlights from November 2022 </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-3 ng-tns-c44-3">
+                          <div class="ng-tns-c44-3">
+                            <img alt="banner" class="border-radius-8px ng-tns-c44-3 ng-star-inserted" style="width: 100%;" src="https://kr-shipmultichannel.s3.ap-southeast-1.amazonaws.com/agreements/1670316899Ttblq.png">
+                          </div>
+                        </div>
+                        <div class="mb-4 ng-tns-c44-3">
+                          <p class="fs-12px open-sans m-0 hide-snippet ng-tns-c44-3">
+                          <p>We are back with our monthly roundup of the latest updates, improvements, announcements, and more.&nbsp;Check it out now!</p>
+                          </p>
+                        </div>
+                        <div class="d-flex ng-tns-c44-3">
+                          <a target="_blank" class="custom-boot-btn fs-14px pe-3 ps-3 rate-us-primary-btn ng-tns-c44-3 ng-star-inserted" href="https://www.shiprocket.in/blog/product-highlights-from-november-2022/">Check Updates <img width="14" height="14" apppathcorrection="" data-src="assets/notification/newlaunch.svg" alt="" class="pb-2px ng-tns-c44-3" src="https://sr-sidebar.shiprocket.in/assets/notification/newlaunch.svg">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="mat-focus-indicator mat-menu-trigger p-0 me-2 mat-button mat-button-base ng-star-inserted" aria-haspopup="true">
+                  <span class="mat-button-wrapper">
+                    <img data-src="assets/svg/apps.svg" alt="apps" src="https://sr-sidebar.shiprocket.in/assets/svg/apps.svg" />
+                  </span>
+                  <span matripple="" class="mat-ripple mat-button-ripple"></span>
+                  <span class="mat-button-focus-overlay"></span>
+                </button>
+                <div class="menu-dropdown-container">
+                  <div class="mat-menu-content ng-tns-c36-1">
+                    <button class="mat-focus-indicator app-switch-list mat-menu-item ng-tns-c36-1 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="logo" style="width: 120px; margin: 0;max-width: initial;" data-src="assets/svg/fullfilment_logo.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/fullfilment_logo.svg" />
+                      <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <button class="mat-focus-indicator app-switch-list mat-menu-item ng-tns-c36-1 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="logo" style="width: 120px; margin: 0;max-width: initial;" data-src="assets/svg/rocket_box_logo.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/rocket_box_logo.svg" />
+                      <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown user-dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="" />
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name blackText"> Ashish </p>
+                    <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                  </div>
+                </a>
+                <div class="dropdown-menu-right user-dd dropdown-menu" x-placement="bottom-right" style="
+                    position: absolute;
+                    top: 40px;
+                    right: 0px;
+                    will-change: transform;
+                    transform: translate(-230px, 64px);
+                    width: 290px;
+                  ">
+                  <div class="mat-menu-content ng-tns-c36-2">
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/user-profile.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/user-profile.svg" style="display: inline-block" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/user-profile-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/user-profile-hover.svg" /> J K <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/current-plan.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/current-plan.svg" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/current-plan-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/current-plan-hover.svg" /> Current Plan <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/refer-earn.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/refer-earn.svg" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/refer-earn-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/refer-earn-hover.svg" /> Refer &amp; Earn <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/rate-us.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/rate-us.svg" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/rate-us-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/rate-us-hover.svg" /> Rate Us <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/t&amp;c.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/t&amp;c.svg" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/t&amp;c-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/t&amp;c-hover.svg" /> Terms &amp; Conditions <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/change-pass.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/change-pass.svg" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/change-pass-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/change-pass-hover.svg" /> Change Password <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                    <button class="mat-focus-indicator app-switch-list user-profile-list fs-14px text-dark-black mat-menu-item ng-tns-c36-2 ng-star-inserted" role="menuitem" tabindex="0" aria-disabled="false">
+                      <img apppathcorrection="" alt="user_profile" data-src="assets/svg/user-profile-icons/logout.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/logout.svg" />
+                      <img apppathcorrection="" alt="user_profile" style="display: none" data-src="assets/svg/user-profile-icons/logout-hover.svg" src="https://sr-sidebar.shiprocket.in/assets/svg/user-profile-icons/logout-hover.svg" /> Logout <div matripple="" class="mat-ripple mat-menu-ripple"></div>
+                    </button>
+                    <hr class="hr-1 ng-tns-c36-2 ng-star-inserted" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            
+            <!-- Channels -->
+          <div class="align-items-center row mb-3 channel-container">
+            <div class="col-12 col-md-5 mb-3 mb-sm-0 ps-3">
+              <h1 class="fs-20px m-0 SFProBold mb-1 text-lightblack">User Profile</h1>
+            </div>
+           
+          </div>
+          
+         
+         <!-- content -->
+         <div class="content">
+          <div class="pane panel-default">
+            <div class="panel-body pv-xl">
+              <div class="col-md-9">
+                <div class="col-md-1"></div>
+                <div class="col-md-8">
+                  <div class="form-group clearfix">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >First Name :</label
+                    >
+                    <div class="col-sm-8">
+                      <div class="form-group mb0">
+                        <div class="row error-append">
+                          <div
+                            class="show_number ng-binding ng-scope"
+                            ng-if="!updateFname.isEdit"
+                          >
+                            J K
+                            <a
+                              class="ml"
+                              uib-tooltip="Edit Last Name"
+                              ng-click="updateFname.isEdit = true"
+                              ><i class="fa fa-pencil text-primary"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group clearfix">
+                    <label for="inputContact1" class="col-sm-4 control-labe"
+                      >Last Name:</label
+                    >
+                    <div class="col-sm-8">
+                      <div class="form-group mb0">
+                        <div class="row error-append">
+                          <div
+                            class="show_number ng-binding ng-scope"
+                            ng-if="!updateLname.isEdit"
+                          >
+                            SOLANKI
+                            <a
+                              class="ml"
+                              uib-tooltip="Edit Last Name"
+                              ng-click="updateLname.isEdit = true"
+                              ><i class="fa fa-pencil text-primary"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group clearfix">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Email Id :</label
+                    >
+                    <div class="col-sm-8 pl0 ng-binding">bmsoni7890@gmail.com</div>
+                  </div>
+                  <div class="form-group clearfix">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Phone :</label
+                    >
+                    <div class="col-sm-8">
+                      <div
+                        class="form-group mb0 ng-scope"
+                        ng-if="!updatePhone.isOtpSend"
+                      >
+                        <div class="row error-append">
+                          <div
+                            class="show_number ng-binding ng-scope"
+                            ng-if="!updatePhone.isEdit &amp;&amp; !updatePhone.isOtpSend"
+                          >
+                            +91-9742852383
+                            <a
+                              class="ml"
+                              uib-tooltip="Edit Number"
+                              ng-click="updatePhone.isEdit = true"
+                              ><i class="fa fa-pencil text-primary"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group clearfix ng-scope" ng-if="user.is_seller">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Company ID :</label
+                    >
+                    <div class="col-sm-8 pl0 ng-binding">31064</div>
+                  </div>
+                  <div class="form-group clearfix ng-scope" ng-if="user.is_seller">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Company Name :</label
+                    >
+                    <div class="col-sm-8 pl0 ng-binding">VRL M K</div>
+                  </div>
+                  <div class="form-group clearfix ng-scope" ng-if="user.is_seller">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Plan :</label
+                    >
+                    <div class="col-sm-8 pl0">
+                      
+                      <span ng-show="user.is_pro_plus_plan" class="ng-hide"
+                        >Lite Plan</span
+                      >
+                      <span
+                        class="link ng-scope"
+                        ng-if="!user.is_custom_user"
+                        ng-hide="user.plan_id == '96' || user.plan_id == '97'"
+                        ui-sref="app.user_plandetails"
+                        href="/billing-plan-details"
+                        >(Change Plan?)</span
+                      >
+                    </div>
+                  </div>
+                  <div ng-if="!searchbar" class="form-group clearfix ng-scope">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Subscription Status :</label
+                    >
+                    <div class="col-sm-8 pl0" style="text-transform: capitalize">
+                      <span ng-if="!user.is_suspended" class="ng-scope">Active</span>
+                    </div>
+                  </div>
+                  <div ng-if="!searchbar" class="form-group clearfix ng-scope">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Subscription Duration :</label
+                    >
+                    <div
+                      class="col-sm-8 pl0 ng-binding"
+                      style="text-transform: capitalize"
+                    >
+                      NA
+                    </div>
+                  </div>
+        
+                  <div ng-if="!searchbar" class="form-group clearfix ng-scope">
+                    <label for="inputContact1" class="col-sm-4 control-label"
+                      >Renewal Date :</label
+                    >
+                    <div class="col-sm-8 pl0"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 text-center"></div>
+            </div>
+          </div>
+        </div>
+        
+            
+            
+          </div>
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+      <!-- chat bot content -->
+      <div id="chatBoatContent" style="
+            backdrop-filter: blur(4px);
+            text-align: center;
+            border: 1px solid rgb(232, 232, 232);
+            padding: 17px 15px 25px;
+            border-radius: 20px;
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+          ">
+        <div style="padding: 10px">
+          <img src="https://stkiwiwebdev.z23.web.core.windows.net//assets/svg/widget-image-support-1.svg" data-cy="chat-widget-image" style="width: 100%" />
+        </div>
+        <div style="text-align: center">
+          <h2 data-cy="chat-widget-greetings" style="
+                font-size: 24px;
+                font-weight: bold;
+                font-family: Proxima Nova, Open Sans, Helvetica, Arial,
+                  sans-serif;
+                color: #000000;
+              "> Welcome To Bigship! </h2>
+          <p data-cy="chat-widget-intro-message" style="
+                font-size: 14px;
+                font-family: Open Sans, Helvetica, Arial, sans-serif;
+                color: #000000;
+              "> We are here to help you! Kindly Share your Concern. </p>
+        </div>
+        <div style="text-align: center; display: flex">
+          <a href="https://api.whatsapp.com/send?phone=919582837312&amp;text=Hello%2C%20Bigship%20i%20need%20assistance." target="_blank" style="
+                border: 1px solid rgb(235, 235, 235);
+                border-radius: 30px;
+                color: rgb(255, 255, 255);
+                width: 100%;
+                padding: 10px 24px;
+                font-size: 16px;
+                outline: none;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                margin-top: 10px;
+                background: linear-gradient(
+                  rgb(18, 198, 101) 0%,
+                  rgb(0, 148, 70) 100%
+                );
+              ">
+            <img data-cy="chat-widget-icon" style="width: 24px; height: 24px" src="https://stkiwiwebdev.z23.web.core.windows.net/assets/svg/whatsapp-icon.svg" /> &nbsp;&nbsp;&nbsp;&nbsp; <span style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: Proxima Nova, Open Sans, Helvetica, Arial,
+                    sans-serif;
+                  letter-spacing: 1.2px;
+                ">START CHAT</span>
+          </a>
+        </div>
+        <div style="margin-top: 8px">
+          <span style="
+                font-size: 12px;
+                font-family: Proxima Nova, Open Sans, Helvetica, Arial,
+                  sans-serif;
+                font-weight: 600;
+              ">
+            <span style="color: #000000">Powered by</span>&nbsp; <a target="_blank" href="https://interakt.shop/" style="color: #000000; text-decoration: none" data-cy="powered-by-interakt">interakt.shop</a>
+          </span>
+        </div>
+        <i id="chatBoatClose" class="fa fa-close mr-2"></i>
+      </div>
+      <!-- chat bot -->
+      <div id="chatBoat" style="
+            position: fixed;
+            z-index: 999999999;
+            bottom: 20px;
+            right: 12px;
+            display: block;
+          ">
+        <div></div>
+        <button style="
+              font-size: 24px;
+              color: rgb(255, 255, 255);
+              background: linear-gradient(
+                90deg,
+                rgb(18, 198, 101) 0.85%,
+                rgb(0, 148, 70) 100%
+              );
+              border-radius: 50%;
+              padding: 10px;
+              outline: none;
+              border: none;
+              cursor: pointer;
+              height: 60px;
+              width: 60px;
+            ">
+          <img data-cy="chat-widget-icon" src="https://stkiwiwebdev.z23.web.core.windows.net/assets/svg/whatsapp-icon.svg" style="width: 100%; height: 100%" />
+        </button>
+      </div>
+      <!-- modal -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="p-4">
+              <div class="fs-20px mb-2 position-relative custom--boot-h3 SFProBold text-opacity-90 d-flex align-items-center justify-content-between"> Recharge Your Wallet <span style="cursor: pointer" data-bs-dismiss="modal" aria-label="Close" class="position-absolute right-0 onhover-pointer d-flex">
+                  <img apppathcorrection="" data-src="assets/svg/cross-dark.svg" alt="cross" src="https://sr-sidebar.shiprocket.in/assets/svg/cross-dark.svg" />
+                </span>
+              </div>
+              <h4 class="fs-12px mb-3 custom--boot-h4 custom--boot-text-opacity-60 SFProRegular text-opacity-60 ls-24"> Current Wallet Amount&nbsp;&nbsp; <span class="text-darkgreen SFProSemiBold ls-24">₹3405.77</span>
+              </h4>
+              <form novalidate="" class="custom-rechangre-wallet-form ng-pristine ng-valid ng-touched">
+                <div class="bg-lightblue p-3 pb-2 border-radius-8px">
+                  <div class="fs-12px opacity-90 mb-2 ls-24 sfpro-medium"> Enter Amount in Multiples of 100 Below </div>
+                  <div class="mb-1 position-relative">
+                    <div class="position-relative">
+                      <input type="number" min="0" formcontrolname="rechargeAmount" placeholder="Enter Amount" class="custom-form-control fs-18px border-radius-8px recharge-amount ls-36 opacity-80 SFProSemiBold border-none ng-pristine ng-valid ng-touched" style="padding-right: 33px" />
+                      <span class="close-popup remove-filled-amount">
+                        <img apppathcorrection="" data-src="assets/svg/cross.svg" alt="cross" src="https://sr-sidebar.shiprocket.in/assets/svg/cross.svg" />
+                      </span>
+                    </div>
+                    <!---->
+                    <!---->
+                  </div>
+                  <p class="fs-10px opacity-50 mb-3 custom-boot-p"> Min value:₹500 &amp; Max value: ₹50,00,000 </p>
+                  <div class="fs-12px opacity-90 mb-2"> Or Select From Below </div>
+                  <div class="custom-row custom-boot-row">
+                    <div class="custom-col-5 mb-2 custom-css ng-star-inserted" style="">
+                      <div class="fs-12px opacity-80 p-1 feature-amount custom-boot-text-center ls-24 w-60px h-24px pt-4px unselected-amount"> ₹500 </div>
+                    </div>
+                    <div class="custom-col-5 mb-2 custom-css ng-star-inserted" style="">
+                      <div class="fs-12px opacity-80 p-1 feature-amount custom-boot-text-center ls-24 w-60px h-24px pt-4px unselected-amount"> ₹1000 </div>
+                    </div>
+                    <div class="custom-col-5 mb-2 custom-css ng-star-inserted" style="">
+                      <div class="fs-12px opacity-80 p-1 feature-amount custom-boot-text-center ls-24 w-60px h-24px pt-4px unselected-amount"> ₹2500 </div>
+                    </div>
+                    <div class="custom-col-5 mb-2 custom-css ng-star-inserted" style="">
+                      <div class="fs-12px opacity-80 p-1 feature-amount custom-boot-text-center ls-24 w-60px h-24px pt-4px unselected-amount"> ₹5000 </div>
+                    </div>
+                    <div class="custom-col-5 mb-2 custom-css ng-star-inserted" style="">
+                      <div class="fs-12px opacity-80 p-1 feature-amount custom-boot-text-center ls-24 w-60px h-24px pt-4px unselected-amount"> ₹10000 </div>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="mb-2 mt-2 ng-star-inserted" style="">
+                  <h3 class="fs-12px opacity-90 mb-2 custom--boot-h3 ls-24 font-weight-500 sfpro-medium"> Have a Coupon </h3>
+                  <div class="custom-boot-row mb-2">
+                    <div class="custom-boot-col-7">
+                      <div class="position-relative">
+                        <input formcontrolname="couponCodetext" type="text" placeholder="Enter Coupon Code here" class="custom-form-control fs-10px border-radius-8px pe-3 custom--boot-text-opacity-60 custom--mw-100-w208px h-28px ps-4 border-onfocus pcolor ng-untouched ng-pristine ng-valid" style="padding-right: 46px !important" />
+                        <button class="fs-10px text-lightpurple custom-boot-btn p-0 coupon-apply-btn btn-without-focus sfpro-medium"> Apply </button>
+                      </div>
+                    </div>
+                    <div class="custom-boot-col-5">
+                      <div class="fs-10px view-coupons custom-boot-text-end opacity-80 SFProRegular me-2 d-flex justify-content-end align-items-center">
+                        <span> View Available Coupons </span>
+                        <img apppathcorrection="" data-src="assets/svg/arrowdownn.png" alt="arrow-down" class="h-16px w-16px mb-1" src="https://sr-sidebar.shiprocket.in/assets/svg/arrowdownn.png" />
+                      </div>
+                    </div>
+                    <!---->
+                  </div>
+                  <!---->
+                </div>
+                <!---->
+                <!---->
+                <div class="bg-verylightgrey p-3 border-radius-8px mb-3">
+                  <div class="custom-boot-row">
+                    <div class="custom-boot-col-6 mb-1">
+                      <div class="fs-12px opacity-70 ls-24 SFProRegular"> Recharge Amount </div>
+                    </div>
+                    <div class="custom-boot-col-6 custom-boot-text-end mb-1">
+                      <div class="fs-12px opacity-70 ls-24 SFProRegular"> ₹500 </div>
+                    </div>
+                    <div class="custom-boot-col-6 mb-1 mt-1">
+                      <div class="fs-12px opacity-70 ls-24 SFProRegular"> Coupon Code Amount </div>
+                    </div>
+                    <div class="custom-boot-col-6 mb-1 custom-boot-text-end mt-1">
+                      <div class="fs-12px opacity-70 ls-24 SFProRegular"> ₹0 </div>
+                    </div>
+                  </div>
+                  <hr class="mb-1 mt-1 opacity-50" style="color: #e3e3e3" />
+                  <div class="custom-boot-row">
+                    <div class="custom-boot-col-6 mt-1">
+                      <div class="fs-12px opacity-90 ls-24 SFProBold">
+                        <strong>Payable Amount</strong>
+                      </div>
+                    </div>
+                    <div class="custom-boot-col-6 mt-1 custom-boot-text-end">
+                      <div class="fs-12px opacity-90 ls-24 SFProBold">
+                        <strong>₹500</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="custom-boot-text-center mt-3">
+                  <button class="custom-boot-btn border-lightpurple custom-boot-text-white bg-lightpurple fs-14px ps-4 pe-4 SFProSemiBold ls-28 font-weight-600 custom-border-radius-6px custom--height-36px custom--mw-100-w198px"> Continue to Payment </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="assets/js/dashboard.js"></script>
+    <script>
+      $(".mat-button-base").click(function() {
+        $(".menu-dropdown-container").toggleClass('show')
+      })
+      $(".bell-icon-btn").click(function() {
+        $(".ng-trigger-openCloseSidebar").addClass("show")
+      })
+      $(".ng-trigger-openCloseSidebar-close").click(function() {
+        $(".ng-trigger-openCloseSidebar").removeClass("show")
+      })
+    </script>
+    <!-- End custom js for this page -->
+  </body>
+</html>
